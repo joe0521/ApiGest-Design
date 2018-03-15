@@ -1,6 +1,7 @@
 body {
     background-color: #F5D76E;
     background-image: url(images/light_honeycomb.png);
+    padding-top: 70px;
 }
 
 /************************************/
@@ -35,4 +36,9 @@ body {
 }
 .fas{
     margin-right: 5px;
+}
+/***********************************************/
+/* Restriction en hauteur des images de cartes */
+.card-img-top, .card-img{
+    height: 250px;
 }
