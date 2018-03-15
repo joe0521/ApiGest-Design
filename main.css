@@ -1,0 +1,38 @@
+body {
+    background-color: #F5D76E;
+    background-image: url(images/light_honeycomb.png);
+}
+
+/************************************/
+/* Petit triangle au dessus du menu */
+.usercard::before {
+    content: "";
+    border-bottom: 8px solid #fff;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    display: inline-block;
+    position: absolute;
+    border-bottom-color: #F3C13A;
+    top: -8px;
+    left: 202px;
+}
+
+.usercard {
+    width: 250px;
+    right: 100px;
+    top: 10px;
+    padding: 0 0 7px !important;
+}
+
+.usertab {
+    color: white;
+    font-size: 1.3rem;
+    background-color: #F3C13A;
+    overflow: hidden;
+    padding: 20px 25px 14px;
+    border-radius: 2px 2px 0 0;
+    margin-bottom: 7px;
+}
+.fas{
+    margin-right: 5px;
+}
