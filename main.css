@@ -3,7 +3,6 @@ body {
     background-image: url(images/light_honeycomb.png);
     padding-top: 80px;
 }
-
 /************************************/
 /* Petit triangle au dessus du menu */
 .usercard::before {
@@ -15,16 +14,14 @@ body {
     position: absolute;
     border-bottom-color: #F3C13A;
     top: -8px;
-    left: 202px;
+    left: 200px;
 }
-
 .usercard {
     width: 250px;
     right: 100px;
     top: 10px;
     padding: 0 0 7px !important;
 }
-
 .usertab {
     color: white;
     font-size: 1.3rem;
@@ -35,10 +32,18 @@ body {
     margin-bottom: 7px;
 }
 .fas{
-    margin-right: 5px;
+    margin-right: 10px;
+}
+.badge-pill>.fas {
+    margin: 0px !important;
+    font-size: 1rem;
+}
+.btn>.fas {
+    margin: 0px;
 }
 /***********************************************/
 /* Restriction en hauteur des images de cartes */
 .card-img-top, .card-img{
     height: 250px;
 }
+
