@@ -46,4 +46,16 @@ body {
 .card-img-top, .card-img{
     height: 250px;
 }
+/***********************************/
+/* Décoration des cartes au survol */
+.card-link{
+    color: black !important;
+}
+.card-link-container:hover {
+    text-decoration: none;
+    -webkit-box-shadow: 0px 0px 10px 3px #F3C13A;
+    -moz-box-shadow: 0px 0px 10px 3px #F3C13A;
+    filter:progid:DXImageTransform.Microsoft.Glow(Color=#F3C13A,Strength=13);
+    box-shadow: 0px 0px 10px 3px #F3C13A;
+}
 
