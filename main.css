@@ -1,7 +1,7 @@
 body {
     background-color: #F5D76E;
     background-image: url(images/light_honeycomb.png);
-    padding-top: 80px;
+    padding-top: 115px;
 }
 /************************************/
 /* Petit triangle au dessus du menu */
@@ -32,7 +32,7 @@ body {
     margin-bottom: 7px;
 }
 .fas{
-    margin-right: 10px;
+    margin-right: 7px;
 }
 .badge-pill>.fas {
     margin: 0px !important;
@@ -58,4 +58,88 @@ body {
     filter:progid:DXImageTransform.Microsoft.Glow(Color=#F3C13A,Strength=13);
     box-shadow: 0px 0px 10px 3px #F3C13A;
 }
-
+/**********************/
+/* Style fil d'ariane */
+.breadcrumb-arrow {
+  height: 36px;
+  padding: 0;
+  line-height: 36px;
+  list-style: none;
+  background-color: rgba(100,100,100,0.3);
+  margin-top: 66px;
+}
+.breadcrumb-arrow li:first-child a {
+   border-radius: 4px 0 0 4px;
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+}
+.breadcrumb-arrow li, .breadcrumb-arrow li a, .breadcrumb-arrow li span {
+  display: inline-block;
+  vertical-align: top;
+}
+.breadcrumb-arrow li:not(:first-child) {
+  margin-left: -5px;
+}
+.breadcrumb-arrow li + li:before {
+  padding: 0;
+  content: "";
+}
+.breadcrumb-arrow li span {
+  padding: 0 10px;
+}
+.breadcrumb-arrow li a, .breadcrumb-arrow li:not(:first-child) span {
+  height: 36px;
+  padding: 0 10px 0 25px;
+  line-height: 36px;
+}
+.breadcrumb-arrow li:first-child a {
+  padding: 0 10px;
+}
+.breadcrumb-arrow li a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  background-color: #F3C13A;
+  border: 1px solid #F3C13A;
+}
+.breadcrumb-arrow li:first-child a {
+  padding-left: 10px;
+}
+.breadcrumb-arrow li a:before, .breadcrumb-arrow li a:after {
+  position: absolute;
+  top: -1px;
+  width: 0;
+  height: 0;
+  content: '';
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+}
+.breadcrumb-arrow li a:before {
+  right: -10px;
+  z-index: 3;
+  border-left-color: #F3C13A;
+  border-left-style: solid;
+  border-left-width: 11px;
+}
+.breadcrumb-arrow li a:after {
+  right: -11px;
+  z-index: 2;
+  border-left: 11px solid #E08A1E;
+}
+.breadcrumb-arrow li a:hover, .breadcrumb-arrow li a:focus {
+  background-color: #F5D76E;
+  border: 1px solid #F5D76E;
+}
+.breadcrumb-arrow li a:hover:before, .breadcrumb-arrow li a:focus:before {
+  border-left-color: #F5D76E;
+}
+.breadcrumb-arrow li a:active {
+  background-color: #E29C45;
+  border: 1px solid #E29C45;
+}
+.breadcrumb-arrow li a:active:before, .breadcrumb-arrow li a:active:after {
+  border-left-color: #E29C45;
+}
+.breadcrumb-arrow li span {
+  color: white;
+}
