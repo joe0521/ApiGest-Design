@@ -1,7 +1,7 @@
 body {
     background-color: #F5D76E;
     background-image: url(images/light_honeycomb.png);
-    padding-top: 115px;
+    padding-top: 80px;
 }
 /************************************/
 /* Petit triangle au dessus du menu */
@@ -60,13 +60,14 @@ body {
 }
 /**********************/
 /* Style fil d'ariane */
+
 .breadcrumb-arrow {
   height: 36px;
   padding: 0;
   line-height: 36px;
   list-style: none;
   background-color: rgba(100,100,100,0.3);
-  margin-top: 66px;
+  margin-top: -14px;
 }
 .breadcrumb-arrow li:first-child a {
    border-radius: 4px 0 0 4px;
