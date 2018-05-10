@@ -41,6 +41,9 @@ body {
 .btn>.fas {
     margin: 0px;
 }
+.input-group-text>.fas {
+    margin: 0px !important;
+}
 /***********************************************/
 /* Restriction en hauteur des images de cartes */
 .card-img-top, .card-img{
@@ -144,10 +147,49 @@ body {
 .breadcrumb-arrow li span {
   color: white;
 }
+
+/****************/
+/* Liste Ruches */
+.ListeRuche {
+    margin-bottom: 20px;
+}
+.ListeRuche a {
+    padding-left: 40px !important;
+    padding-right: 120px !important;
+}
+.ListeRuche a>i {
+    position: absolute;
+    left: 12px;
+    margin-top: 2px;
+}
+.rating>i{
+    margin-right: 0px !important;
+}
+.rating{
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    margin-right: 15px;
+}
 /***************/
 /* UTILITAIRES */
 .border-top-gold {
     border: 1px, solid, rgba(0,0,0,1);
     border-top-color: #F3C13A !important;
     border-top-width: 4px !important;
+}
+.not-editing+.input-group-append {
+    display: none;
+}
+.not-editing {
+    cursor: pointer;
+}
+.test {
+    font-size: 2em !important;
+}
+.sauver {
+    margin-top: 2px;
+}
+.not-editing+.sauver {
+   display: none; 
 }
